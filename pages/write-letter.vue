@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-trading-tools max-w-full sm:mx-4 overflow-hidden mt-[72px]">
+  <section class="max-w-full sm:mx-4 overflow-hidden mt-[72px]">
     <div class="max-w-screen-xl py-4 px-6 mx-auto">
       <form class="grid md:flex md:flex-row h-screen md:h-auto md:grid-cols-4 gap-8">
         <!-- Letter Head (1st Grid Item) -->
@@ -31,7 +31,7 @@
         </div>
 
         <!-- Letter Details (2nd Grid Item) -->
-        <div class="md:col-span-1 w-full md:w-1/4 text-sm lg:mt-14 sm:mt-2 sm:mb-[56px]">
+        <div class="md:col-span-1 w-full md:w-1/4 text-sm lg:mt-14 sm:mt-2 mb-[56px]">
           <div class="flex flex-col">
             <!-- Time / Periods -->
             <div class="space-x-2 mb-4 flex">
@@ -52,13 +52,23 @@
             />
 
             <!-- Privacy Options -->
-            <label class="mb-2 font-bold">Privacy:</label>
+            <label class="mb-2 font-bold">Visibility:</label>
             <div class="flex items-center mb-4">
               <input type="radio" name="privacy" value="Private" class="mr-2" />
               <label for="private" class="mr-4">Private</label>
               <input type="radio" name="privacy" value="public" class="mr-2" />
-              <label for="public">Public</label>
+              <label for="public">Public (Anonymous)</label>
             </div>
+
+            <!-- Email Input -->
+            <label for="email" class="mb-2 font-bold">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="p-2 border rounded mb-4"
+              placeholder="Enter your email"
+            />
 
             <!-- Submit Button -->
             <button class="bg-[#0c66ee] text-white py-2 px-4 rounded w-full font-bold">

@@ -16,3 +16,8 @@ export default {
   name: "DefaultLayout",
 };
 </script>
+
+<style>
+.ignore {
+}
+</style>
