@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen">
+  <div class="w-full h-screen mt-[80px]">
     <div class="flex h-screen">
       <div class="w-full">
         <form>
@@ -8,8 +8,8 @@
               <!-- <img src="../../../assets/logo/logo.svg" alt="" class="w-10" /> -->
             </div>
             <div class="space-y-3">
-              <h2 class="text-black-500 font-semibold text-gray-800 text-2xl">
-                Welcome back<span class="text-primary">.</span>
+              <h2 class="text-black-500 font-semibold text-gray-600 text-2xl">
+                Welcome back
               </h2>
               <p class="text-gray-700">Please enter your details to continue.</p>
             </div>

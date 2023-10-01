@@ -1,16 +1,16 @@
 <template>
-  <div class="w-full h-screen">
+  <div class="w-full h-screen mt-[72px]">
     <div class="flex rounded-md h-screen">
       <div class="w-full">
         <form @submit.prevent="signUp">
-          <div class="form-body max-w-xl mx-auto lg:p-20 px-8 lg:mt-10 space-y-8">
+          <div class="form-body max-w-xl mx-auto lg:p-20 px-8 space-y-8">
             <div class="form-head cursor-pointer">
               <!-- <img src="../../../assets/logo/logo.svg" alt="" class="w-10" /> -->
             </div>
             <div class="space-y-3">
-              <h2 class="font-semibold text-gray-800 text-2xl">Create new account?</h2>
+              <h2 class="font-semibold text-gray-600 text-2xl">Create new account?</h2>
               <p class="text-gray-700">
-                Please enter your information to register account.
+                Please enter your information to register account
               </p>
             </div>
             <button

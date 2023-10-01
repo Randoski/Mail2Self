@@ -1,14 +1,12 @@
 <template>
-  <nav id="navbar" class="relative z-10 w-full text-neutral-800">
+  <nav id="navbar" class="fixed top-0 left-0 z-10 w-full text-neutral-800 bg-white">
     <div
-      class="flex flex-col max-w-screen-xl px-6 mx-auto lg:items-center lg:justify-between lg:flex-row py-4"
+      class="flex flex-col max-w-screen-xl px-6 mx-auto lg:items-center lg:justify-between lg:flex-row pt-4 pb-1"
     >
       <div class="flex flex-col lg:flex-row items-center space-x-4 xl:space-x-8">
         <div class="w-full flex flex-row items-center justify-between py-6">
           <div>
-            <NuxtLink to="/" class="text-[#0c66ee] font-bold"
-              >Mail<span class="text-black-500">2</span>Self</NuxtLink
-            >
+            <NuxtLink to="/" class="text-[#0c66ee] font-bold">Mail2Self</NuxtLink>
           </div>
           <button
             class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline"
@@ -36,18 +34,18 @@
       <div :class="[open ? 'flex' : 'hidden lg:flex']" class="space-x-3">
         <NuxtLink
           to="/log-in"
-          class="px-8 xl:px-10 py-3 mt-2 bg-inherit text-gradient border border-[#0c66ee] text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300"
+          class="px-8 xl:px-10 py-3 mt-2 mb-1 bg-inherit text-gradient border border-[#0c66ee] text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300"
         >
           Login
         </NuxtLink>
         <NuxtLink
           to="sign-up"
-          class="px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300"
+          class="px-8 xl:px-10 py-3 mt-2 mb-1 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300"
         >
           Sign Up
         </NuxtLink>
         <button
-          class="hidden px-8 xl:px-10 py-3 mt-2 bg-inherit text-gradient border border-[#0c66ee] text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300"
+          class="hidden px-8 xl:px-10 py-3 mt-2 mb-1 bg-inherit text-gradient border border-[#0c66ee] text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300"
         >
           Logout
         </button>

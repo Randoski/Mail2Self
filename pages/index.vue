@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="mt-[112px]">
     <!-- Hero section -->
     <section class="w-full">
       <BaseSection>
