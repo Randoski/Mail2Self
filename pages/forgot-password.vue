@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen">
+  <div class="w-full h-screen mt-[88px]">
     <div class="flex h-screen">
       <div class="w-full">
         <form>
@@ -8,7 +8,7 @@
               <!-- <img src="../../../assets/logo/logo.svg" alt="" class="w-10" /> -->
             </div>
             <div class="space-y-3">
-              <h2 class="font-semibold text-gray-800 text-2xl">Forgot your password?</h2>
+              <h2 class="font-semibold text-gray-600 text-2xl">Forgot your password?</h2>
               <p class="text-gray-700">
                 Please enter your email to recovery your password.
               </p>
